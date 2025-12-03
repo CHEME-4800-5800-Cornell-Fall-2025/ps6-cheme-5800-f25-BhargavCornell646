@@ -21,7 +21,7 @@ using Random
 using Test
 
 # Set the random seed for reproducibility -
-# Random.seed!(1234); # set the random seed for reproducibility
+Random.seed!(1234); # set the random seed for reproducibility
 
 # include my source files -
 include(joinpath(_PATH_TO_SRC, "Types.jl"));
